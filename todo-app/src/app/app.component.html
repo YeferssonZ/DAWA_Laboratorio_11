@@ -1,0 +1,7 @@
+<div class="background">
+  <div class="container">
+    <app-add-task (taskAdded)="addTask($event)"></app-add-task>
+    <app-task-filter (filterSelected)="filterTasks($event)"></app-task-filter>
+    <app-task-list [filteredTasks]="filteredTasks"></app-task-list>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.background {
+    background-image: url('https://images5.alphacoders.com/133/1339874.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 97.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: rgba(51, 51, 51, 0.8);
+    border: 2px solid #555;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .container app-add-task,
+  .container app-task-filter,
+  .container app-task-list {
+    margin-bottom: 20px;
+  }
+  

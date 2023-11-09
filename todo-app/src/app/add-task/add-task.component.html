@@ -1,0 +1,4 @@
+<div class="add-task">
+    <input [(ngModel)]="taskName" placeholder="Nombre de la tarea" [class.error]="!taskName">
+    <button (click)="addTask()" [disabled]="!taskName">Agregar tarea</button>
+</div>
